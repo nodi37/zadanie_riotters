@@ -17,7 +17,7 @@ const resizeHandler = () => {
         viewStore.closeSidebar();
     }
 
-    if (window.innerWidth > 1020 && lastBreakPoint == 'mobile') {
+    if (window.innerWidth > 1020 && (lastBreakPoint == 'mobile' || lastBreakPoint == '')) {
         viewStore.openSidebar();
     }
 
@@ -28,7 +28,7 @@ const resizeHandler = () => {
 
 onMounted(() => {
     window.addEventListener("resize", resizeHandler);
-    //Runing this here does nothing apart from setting current size deskop/mobile
+    //Setts current size deskop/mobile and opens sidebar on load if on desktop
     resizeHandler();
 });
 

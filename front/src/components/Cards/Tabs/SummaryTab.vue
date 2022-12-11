@@ -43,7 +43,7 @@ onMounted(async () => {
       });
     }
   } catch (error) {
-    console.log(error)
+    //console.log(error)
     apiError.value = true;
   }
 
