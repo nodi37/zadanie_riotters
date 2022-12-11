@@ -1,0 +1,14 @@
+@keyframes notificationBadge {
+  0%, 7% {
+    outline: 0px solid red;
+    outline-offset: 0px;
+  }
+  6%, 13% {
+    outline: 4px solid transparent;
+    outline-offset: 4px;
+  }
+  14% {
+    outline: transparent;
+    outline-offset: 0;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "riotters",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/js": "^7.0.96",
+    "axios": "^1.2.1",
+    "chart.js": "^4.0.1",
+    "pinia": "^2.0.28",
+    "sass": "^1.56.1",
+    "vue": "^3.2.41"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "vite": "^3.2.3"
+  }
+}
